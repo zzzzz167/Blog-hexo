@@ -12,7 +12,7 @@ banner_img: /img/post_banner/MyHome/banner.png
 
 简单的记录下自家的目前服务和解决方案
 
-<!---more-->
+<!-- more -->
 
 概况:
 
