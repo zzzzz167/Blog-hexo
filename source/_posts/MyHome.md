@@ -1,12 +1,13 @@
 ---
 title: 浅谈我家的服务及实现
-date: 2023-08-29 13:55:59
-tags: 
+tags:
   - Network
   - Docker
   - HomeProject
 index_img: /img/post_banner/MyHome/banner.png
 banner_img: /img/post_banner/MyHome/banner.png
+abbrlink: 82593b48
+date: 2023-08-29 13:55:59
 ---
 
 

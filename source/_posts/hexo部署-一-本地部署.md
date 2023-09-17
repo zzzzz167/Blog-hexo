@@ -1,10 +1,11 @@
 ---
 title: 'hexo部署(一):本地部署'
-date: 2021-02-23 23:47:57
-tags: 
+tags:
   - hexo
   - 网站
 categories: 技术
+abbrlink: ddb9f012
+date: 2021-02-23 23:47:57
 ---
 
 ## 前言

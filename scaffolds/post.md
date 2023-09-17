@@ -2,6 +2,6 @@
 title: {{ title }}
 date: {{ date }}
 tags:
-index_img:
-banner_img:
+index_img: /img/post_banner
+banner_img: /img/post_banner
 ---
