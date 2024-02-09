@@ -16,3 +16,20 @@
     <span id="cnzz_stat_icon_<%= theme.web_analytics.cnzz %>" style="display: none"></span>
   <% } %>
 </div>
+
+<div id="lantern-wrapper" class="lantern-wrapper" no-select></div>
+
+<script>
+  let lantern = new Lantern('lantern-wrapper', {
+      date: {
+          from: '2-8',					// 开始悬挂灯笼的日期
+          to: '2-16'						// 结束悬挂灯笼的日期
+      },
+      postion: {
+          zIndex: 9999,
+          lanternRL: [5, 140, 140, 5],
+          lanternTop: 0
+      },
+      content: '过年辣！'
+  });
+</script>
