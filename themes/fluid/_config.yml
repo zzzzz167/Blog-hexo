@@ -420,7 +420,7 @@ footer:
   # 页脚第一行文字的 HTML，建议保留 Fluid 的链接，用于向更多人推广本主题
   # HTML of the first line of the footer, it is recommended to keep the Fluid link to promote this theme to more people
   content: '
-    &copy; <a href="https://github.com/zzzzz167" target="_blank">晓栀</a> 2018-2023
+    &copy; <a href="https://github.com/zzzzz167" target="_blank">晓栀</a> 2018-2024
     <br>
     Powered by <a href="https://hexo.io" target="_blank">Hexo</a> &
     <a href="https://github.com/fluid-dev/hexo-theme-fluid" target="_blank">Fluid</a>
@@ -1021,6 +1021,18 @@ links:
       intro: "帅气怨言",
       link: "https://shuaiqiyy.github.io",
       avatar: "/img/friend/redefine-avatar.png"
+    }
+    - {
+      title: "云梦泽",
+      intro: "欢迎来到云梦泽的秘密空间",
+      link: "https://yun.mi-manchi.top/",
+      avatar: "/img/friend/mi_manchi.png"
+    }
+    - {
+      title: "瓦猫杂货铺",
+      intro: "因为有了危机感，所以会义无反顾。",
+      link: "https://bubao.github.io/",
+      avatar: "/img/friend/20210121212746.png"
     }
 
 
