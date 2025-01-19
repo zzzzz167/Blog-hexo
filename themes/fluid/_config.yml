@@ -91,7 +91,7 @@ fun_features:
 
     # 游标字符
     # Cursor character
-    cursorChar: "⍵"
+    cursorChar: "✿"
 
     # 是否循环播放效果
     # If true, loop animation
@@ -145,16 +145,14 @@ color:
 
   # 顶部菜单背景色
   # Color of navigation bar background
-  navbar_bg_color: "#2f4154"
-  navbar_bg_color_dark: "#1f3144"
+  navbar_bg_color: "#ffc0cb" # 淡粉色背景
+  navbar_bg_color_dark: "#ffb6c1" # 深色模式下的淡粉
 
-  # 顶部菜单字体色
-  # Color of navigation bar text
-  navbar_text_color: "#fff"
-  navbar_text_color_dark: "#d0d0d0"
+  # 顶部菜单字体色保持默认
+  # Color of navigation bar text remains unchanged
+  navbar_text_color: "#ffffff" # 搭配淡粉色的白色文字
+  navbar_text_color_dark: "#fff5f5" # 深色模式略柔和的白色
 
-  # 副标题字体色
-  # Color of navigation bar text
   subtitle_color: "#fff"
   subtitle_color_dark: "#d0d0d0"
 
@@ -185,41 +183,43 @@ color:
 
   # 文章超链接字体色
   # Color of post link
-  post_link_color: "#e9546b"
-  post_link_color_dark: " #ed7689"
+  post_link_color: "#ff69b4" # 热粉色链接
+  post_link_color_dark: "#ff85ab" # 深色模式稍柔和的粉红
 
   # 超链接悬浮时字体色
   # Color of link when hovering
-  link_hover_color: "#38a1db"
-  link_hover_color_dark: "#9cd0ed"
+  link_hover_color: "#ff1493" # 深粉色悬浮链接
+  link_hover_color_dark: "#ff4691" # 深色模式稍柔和的深粉
 
   # 超链接悬浮背景色
   # Color of link background when hovering
-  link_hover_bg_color: "#f8f9fa"
-  link_hover_bg_color_dark: "#364151"
+  link_hover_bg_color: "#ffe4e1" # 蒙版淡粉色背景
+  link_hover_bg_color_dark: "#ffdee4" # 深色模式偏暗一些的淡粉
 
   # 分隔线和表格边线的颜色
   # Color of horizontal rule and table border
-  line_color: "#eaecef"
-  line_color_dark: "#435266"
+  line_color: "#ffd6dc" # 浅粉色分隔线
+  line_color_dark: "#ffccd4" # 深色模式稍加对比的粉色
 
   # 滚动条颜色
   # Color of scrollbar
-  scrollbar_color: "#c4c6c9"
-  scrollbar_color_dark: "#687582"
+  scrollbar_color: "#ffc1cc" # 粉色滚动条
+  scrollbar_color_dark: "#ff9eb4" # 深色模式更深的粉色
+
   # 滚动条悬浮颜色
   # Color of scrollbar when hovering
-  scrollbar_hover_color: "#a6a6a6"
-  scrollbar_hover_color_dark: "#9da8b3"
+  scrollbar_hover_color: "#ff8aa0" # 深粉色悬浮滚动条
+  scrollbar_hover_color_dark: "#ff7a98" # 深色模式稍柔和深粉
 
   # 按钮背景色
   # Color of button
-  button_bg_color: "transparent"
-  button_bg_color_dark: "transparent"
+  button_bg_color: "#ffebee" # 浅粉色按钮背景
+  button_bg_color_dark: "#ffced8" # 深色模式偏暗一点的浅粉
+
   # 按钮悬浮背景色
   # Color of button when hovering
-  button_hover_bg_color: "#f2f3f5"
-  button_hover_bg_color_dark: "#46647e"
+  button_hover_bg_color: "#fcb8d1" # 悬浮时更亮的粉色
+  button_hover_bg_color_dark: "#ffabc4" # 深色模式稍深的粉色
 
 # 主题字体配置
 # Font
@@ -481,7 +481,7 @@ index:
 
     # 为空则按 hexo config.subtitle 显示
     # If empty, text based on `subtitle` in hexo config
-    text: "你是我在深渊之中凝望的月亮 是我不可触及的光"
+    text: "人生如丁香 愁怨又芬芳"
 
     # 通过 API 接口作为首页副标题的内容，必须返回的是 JSON 格式，如果请求失败则按 text 字段显示，该功能必须先开启 typing 打字机功能
     # Subtitle of the homepage through the API, must be returned a JSON. If the request fails, it will be displayed in `text` value. This feature must first enable the typing animation
